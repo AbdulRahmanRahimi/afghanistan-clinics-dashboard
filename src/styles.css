@@ -133,7 +133,7 @@
   width: 14px;
   height: 14px;
   border-radius: 3px;
-  background: url("https://raw.githubusercontent.com/rahimiabdulrahmanab/Clinics-Dashboard/main/Marker.png")
+  background: url("https://raw.githubusercontent.com/AbdulRahmanRahimi/clinics-map-streamlit/main/Marker.png")
     center/contain no-repeat;
 }
 .legend-line {
