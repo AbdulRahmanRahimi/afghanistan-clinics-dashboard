@@ -31,14 +31,14 @@ ChartJS.register(
 
 const clinicIcon = new L.Icon({
   iconUrl:
-    "https://raw.githubusercontent.com/rahimiabdulrahmanab/Clinics-Dashboard/main/Marker.png",
+    "https://raw.githubusercontent.com/rahimiabdulrahmanab/clinics-map-streamlit/main/Marker.png",
   iconSize: [35, 35],
   iconAnchor: [17, 35],
   popupAnchor: [0, -30],
 });
 
 const csvUrl =
-  "https://raw.githubusercontent.com/rahimiabdulrahmanab/Clinics-Dashboard/main/Afghanistan%20Clinics.csv";
+  "https://raw.githubusercontent.com/rahimiabdulrahmanab/clinics-map-streamlit/main/Afghanistan%20Clinics.csv";
 
 export default function ClinicDetail() {
   const { id } = useParams();
@@ -191,9 +191,9 @@ export default function ClinicDetail() {
         <div className="col-lg-7">
           <Carousel className="mb-4 shadow-sm rounded overflow-hidden">
             {[
-              "https://raw.githubusercontent.com/rahimiabdulrahmanab/Clinics-Dashboard/main/333.webp",
-              "https://raw.githubusercontent.com/rahimiabdulrahmanab/Clinics-Dashboard/main/22.webp",
-              "https://raw.githubusercontent.com/rahimiabdulrahmanab/Clinics-Dashboard/main/1.webp",
+              "https://raw.githubusercontent.com/rahimiabdulrahmanab/clinics-map-streamlit/main/333.webp",
+              "https://raw.githubusercontent.com/rahimiabdulrahmanab/clinics-map-streamlit/main/22.webp",
+              "https://raw.githubusercontent.com/rahimiabdulrahmanab/clinics-map-streamlit/main/1.webp",
             ].map((img, i) => (
               <Carousel.Item key={i}>
                 <img

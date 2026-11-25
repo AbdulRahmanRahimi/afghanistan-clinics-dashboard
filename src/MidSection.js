@@ -21,7 +21,7 @@ import SearchFilters from "./SearchFilters";
 // ---------- Icon ----------
 const clinicIcon = new L.Icon({
   iconUrl:
-    "https://raw.githubusercontent.com/rahimiabdulrahmanab/Clinics-Dashboard/main/Marker.png",
+    "https://raw.githubusercontent.com/rahimiabdulrahmanab/clinics-map-streamlit/main/Marker.png",
   iconSize: [36, 36],
   iconAnchor: [18, 36],
   popupAnchor: [0, -32],
@@ -33,9 +33,9 @@ const clinicIcon = new L.Icon({
 
 // ---------- Data sources ----------
 const csvUrl =
-  "https://raw.githubusercontent.com/rahimiabdulrahmanab/Clinics-Dashboard/main/Afghanistan%20Clinics.csv";
+  "https://raw.githubusercontent.com/rahimiabdulrahmanab/clinics-map-streamlit/main/Afghanistan%20Clinics.csv";
 const geojsonUrl =
-  "https://raw.githubusercontent.com/rahimiabdulrahmanab/ShapeFile_Project/main/afg_admin2.geojson";
+  "https://raw.githubusercontent.com/rahimiabdulrahmanab/afghanistan-admin-boundaries/main/afg_admin2.geojson";
 
 // ---------- Helper: move map when a target is selected ----------
 function FlyToOnSelect({ target, zoom = 10 }) {
@@ -278,7 +278,7 @@ export default function MidSection() {
                 >
                   <div className="d-flex align-items-start">
                     <img
-                      src="https://raw.githubusercontent.com/rahimiabdulrahmanab/Clinics-Dashboard/main/hospital.png"
+                      src="https://raw.githubusercontent.com/rahimiabdulrahmanab/clinics-map-streamlit/main/hospital.png"
                       alt="Clinic"
                       className="me-3 rounded object-cover"
                       width="64"
