@@ -35,7 +35,7 @@ const clinicIcon = new L.Icon({
 const csvUrl =
   "https://raw.githubusercontent.com/rahimiabdulrahmanab/clinics-map-streamlit/main/Afghanistan%20Clinics.csv";
 const geojsonUrl =
-  "https://raw.githubusercontent.com/rahimiabdulrahmanab/afghanistan-admin-boundaries/main/afg_admin2.geojson";
+  `${process.env.PUBLIC_URL}/afg_admin2.geojson`;
 
 // ---------- Helper: move map when a target is selected ----------
 function FlyToOnSelect({ target, zoom = 10 }) {

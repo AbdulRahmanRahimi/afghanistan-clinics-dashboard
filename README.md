@@ -25,7 +25,7 @@ An interactive web GIS dashboard for exploring health clinics across Afghanistan
 ## Data
 
 - Clinic list: CSV from [clinics-map-streamlit](https://github.com/rahimiabdulrahmanab/clinics-map-streamlit)
-- District boundaries: `afg_admin2.geojson` from [afghanistan-admin-boundaries](https://github.com/rahimiabdulrahmanab/afghanistan-admin-boundaries)
+- District boundaries: [`public/afg_admin2.geojson`](public/afg_admin2.geojson), Afghanistan's 401 districts (ADM2), included in this repository
 
 ## Run locally
 
